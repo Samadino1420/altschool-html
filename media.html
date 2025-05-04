@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <p>Audio</p>
+
+    <audio controls loop preload="auto">
+        <source /src="./assets/audio/sample-9s (1).mp3" type="audio/mpeg">
+    </audio>
+
+    <p>Video</p>
+
+    <video width="400px" height="320px" controls>
+     <source src="./assets/video/sample-1 (1).mp3" />
+       <source media="(min-width:650px)"
+       src="./assets/video/sample-file-4.mp3" />
+    </video>
+
+    <p>Picture</p>
+
+    <picture>
+      <source
+        media="(min-width:786px)" 
+        src="./../assets/images/pexels-eda-topsakal-151114598-27085501.jpg"
+    /> 
+    <img
+     style="border: 1px solid red"
+     src="./assets/images/pexels-eda-topsakal-151114598-27085501 (1).jpg"
+     width="200px"
+     height="200px"
+    />
+    </picture>
+</body>
+</html>
